@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  font-family: "Bevan", sans-serif;
+  font-family: Bevan, sans-serif;
   line-height: 1.5;
 }
 
@@ -12,14 +12,13 @@ html {
 header {
   background-color: #79756f;
   border: 3px solid #595652;
-  border-left: 0pt;
-  border-right: 0pt;
+  border-left: 0;
+  border-right: 0;
   text-align: center;
-
 }
 
 header h1 {
-  font-family: "Bevan", sans-serif;
+  font-family: Bevan, sans-serif;
   text-align: center;
   color: #fff;
   display: block;
@@ -37,5 +36,9 @@ header li a {
 }
 
 header ul {
-    list-style: none;
+  list-style: none;
+}
+
+header a:hover {
+  background-color: #f33;
 }
