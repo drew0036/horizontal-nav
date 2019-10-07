@@ -1,8 +1,11 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  font-family: Bevan, sans-serif;
-  line-height: 1.5;
+}
+
+body {
+    line-height: 1.5;
+    font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -17,7 +20,7 @@ header {
   text-align: center;
 }
 
-header h1 {
+h1 {
   font-family: Bevan, sans-serif;
   text-align: center;
   color: #fff;
