@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+  background-color: #dbd6cf;
+  font-family: "Bevan", sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+div {
+  background-color: #79756f;
+  border: 3px solid #595652;
+  border-left: 0pt;
+  border-right: 0pt;
+  text-align: center;
+
+}
+
+h1 {
+  font-family: "Bevan", sans-serif;
+  text-align: center;
+  color: #fff;
+  display: block;
+}
+
+li a {
+  display: inline-block;
+  padding: .6em .5em .75em;
+  background-color: #713837;
+  color: #fff;
+  margin: .3em;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+ul {
+    list-style: none;
+}
