@@ -35,11 +35,11 @@ header li a {
   text-decoration: none;
   border-radius: 4px;
   list-style-type: none;
+  display: inline-block;
 }
 
 header ul {
   list-style: none;
-  display: inline;
 }
 
 header a:hover {
